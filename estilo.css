@@ -36,23 +36,41 @@ h1 {
 /* Insira o código abaixo */
 
 .container1 {
-    
+    display: flex;
+    justify-content: flex-start;
 }
 
 .container2 {
-    
+    display: flex;
+    justify-content: flex-end;   
 }
 
 .container3 {
-   
+    display: flex;
+    justify-content: center;
 }
 
 .container4 {
-    
+    display: flex;
+    justify-content: space-between;
 }
 .container5 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;  
+}
+.container6 {
+    display: flex;
+    justify-content: space-around;
     
 }
-.container-6 {
-    
+.container-exercicioB {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container-desafio {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
